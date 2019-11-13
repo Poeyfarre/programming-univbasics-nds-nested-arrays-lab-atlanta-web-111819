@@ -45,6 +45,7 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
+  homes[0][3] = "jon"
   # Update the matrix location at row and column to have the value of new_value
   # Return the updated matrix
 end
