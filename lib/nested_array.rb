@@ -36,7 +36,11 @@ def array_literal_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  
+  homes = [
+    ENNET_HOUSE = ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"],
+    ENFIELD_TENNIS_ACADEMY = ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"]
+    ]
+    homes[0][3]
   # Return the matrix's content at row and column
 end
 
